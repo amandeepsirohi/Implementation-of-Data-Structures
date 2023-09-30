@@ -1,6 +1,8 @@
 #include <iostream>
 #include <bits/stdc++.h>
 
+//multiply numbers given through command line
+
 using namespace std;
 
 int main(int argc , char *argv[])
