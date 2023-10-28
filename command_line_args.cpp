@@ -10,12 +10,12 @@ int main(int argc , char *argv[])
     {
         cout << "arg[" << i << "]" << " " <<  argv[i] << endl;
     }
-     int ans = 1;
+    double ans = 0;
     for(int i = 1 ; i < argc ; i++)
     {
-        ans *= atoi(argv[i]);
+        ans += atof(argv[i]);
     }
-    cout << ans << endl;
+    cout << "Sum is " <<  ans << endl;
     return 0;
     
 }
